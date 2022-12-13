@@ -8,15 +8,7 @@
 int _abs(int n)
 {
 if (n < 0)
-{
-n = n + n * -2;
-_putchar(n / 10);
-_putchar(n % 10 + '0');
-}
+return (-n);
 else
-{
-_putchar(n / 10);
-_putchar(n % 10 + '0');
-}
 return (n);
 }
