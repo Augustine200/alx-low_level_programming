@@ -3,12 +3,18 @@ int main(void)
 {
 int n, i, j;
 scanf("%d", &n);
-for (i = n; i <= 98; i++)
+if( n < 98)
 {
-printf("%d\n", i);
-printf("\n");
+while(n < 98)
+{
+printf("%d, ", i++);
+printf("%d", i);
+}
 }
 for (j = n; j >= 98; j--)
-printf("%d\n", j);
+{
+printf("%d, ", j--);
+printf("%d", j);
+}
 return (0);
 }
