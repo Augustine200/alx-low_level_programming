@@ -15,13 +15,13 @@ for (i = n; i < 98; i++)
 printf("%d, ", i++);
 printf("%d", i);
 }
+}
 else
 {
 for (j = n; j > 98; j--)
 {
 printf("%d, ", j--);
 printf("%d", j);
-}
 }
 }
 }
