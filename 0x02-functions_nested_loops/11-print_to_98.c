@@ -7,21 +7,20 @@
  */
 void print_to_98(int n)
 {
-int i, j;
 if (n <= 98)
 {
 while (n < 98)
 {
-printf("%d, ", i++);
-printf("%d", i);
+printf("%d, ", n++);
+printf("%d", n);
 }
 }
 else
 {
 while (n > 98)
 {
-printf("%d, ", j--);
-printf("%d", j);
+printf("%d, ", n--);
+printf("%d\n", n);
 }
 }
 }
