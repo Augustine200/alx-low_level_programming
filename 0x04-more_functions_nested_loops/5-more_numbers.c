@@ -6,22 +6,15 @@
 void more_numbers(void)
 {
 int i, j, k;
-for (i = '1'; i < '2'; i++)
+for (j = 0; j <= 9; j++)
 {
-for (j = '0'; j <= '9'; j++)
+for (k = 0; k <= 14; k++)
 {
-for (k = '0'; k <= '9'; k++)
+if (k > 9)
 {
-if (i == '1' && j == '4')
-{
-break;
+_putchar((k / 10) + '0'); 
 }
-else
-{
-_putchar(i);
-_putchar(j);
-}
-}
+_putchar((k % 10) + '0');
 }
 _putchar('\n');
 }
