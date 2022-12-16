@@ -2,9 +2,9 @@
 int main(void)
 {
 int i, j;
-for (i = 0; i <= 4; i++)
+for (i = 1; i <= 4; i++)
 {
-for (j = 0; j <= 9; j++)
+for (j = 1; j <= 4; j++)
 {
 putchar('#');
 }
