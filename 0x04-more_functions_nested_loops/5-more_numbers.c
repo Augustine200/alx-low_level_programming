@@ -5,7 +5,7 @@
  */
 void more_numbers(void)
 {
-int i, j, k;
+int j, k;
 for (j = 0; j <= 9; j++)
 {
 for (k = 0; k <= 14; k++)
