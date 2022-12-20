@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * puts2 - prints even character.
  * @str: The string.
@@ -6,17 +7,16 @@
  */
 void puts2(char *str)
 {
-int i = 0;
-while (*str != '\0')
+int i,length;
+length = strlen(str);
+for (i = 0; i <= length - 1; i++)
 {
 if (i % 2 == 0)
-{
-_putchar(*str++);
-}
+_putchar(*str);
 else
 {
 continue;
 }
-i++;
 }
+_putchar('\n');
 }
