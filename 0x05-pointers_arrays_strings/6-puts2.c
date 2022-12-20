@@ -18,6 +18,6 @@ else
 continue;
 }
 i++;
-*str++;
+str++;
 }
 }
