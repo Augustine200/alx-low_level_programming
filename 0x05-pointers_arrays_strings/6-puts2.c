@@ -7,7 +7,7 @@
  */
 void puts2(char *str)
 {
-int i,length;
+int i, length;
 length = strlen(str);
 for (i = 0; i <= length - 1; i++)
 {
@@ -17,6 +17,7 @@ else
 {
 continue;
 }
+str++;
 }
 _putchar('\n');
 }
